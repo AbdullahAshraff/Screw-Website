@@ -38,8 +38,9 @@ for (let i = 0; i < CARDS.length; i++) {
 
 
   let card_img = document.createElement('img');
-  card_img.setAttribute('class','card_img');
+  card_img.setAttribute('class','card-img');
   card_img.setAttribute('src',`${FOLDER}${CARDS[i][2]}`);
+  card_img.setAttribute('alt',`${CARDS[i][0]}`);
   card_img.innerText = CARDS[i][0];
   card_front.appendChild(card_img);
 
