@@ -15,20 +15,20 @@ body {
   max-width: 750px;
   min-width: 300px;
   padding: 20px;
-  background-color: purple;
+  background-color: rgb(87, 10, 142);
 }
 
 header {
-  background-color: purple;
-  color: blue;
+  background-color: rgb(87, 10, 142);
+  color: white;
   padding: 40px;
   /* Increased padding for header */
   text-align: center;
 }
 
 nav {
-  background-color: purple;
-  color: blue;
+  background-color: rgb(87, 10, 142);
+  color: white;
   padding: 20px;
 }
 
@@ -40,7 +40,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: blue;
+  color: white;
   font-weight: bold;
   font-size: 18px;
 }
@@ -52,8 +52,8 @@ section {
 }
 
 footer {
-  background-color: purple;
-  color: blue;
+  background-color: rgb(87, 10, 142);
+  color: white;
   text-align: center;
   padding: 20px;
   position: fixed;
