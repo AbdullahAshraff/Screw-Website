@@ -2,19 +2,29 @@
 html{
   display: flex;
   justify-content: center;
+  direction: rtl;
 }
 body{
-  direction: rtl;
-  font-size:30px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size:25px;
+  height: 100vh;
+  width: 100vw;
+  max-width: 750px;
+  min-width: 300px;
+  overflow-x: scroll;
+  padding: 20px;
 }
 
 #score-table{
-  column-width: 40px;
-  text-align: center;
+  table-layout: auto;
+  width:100%;
   
+  text-align: center;
+  border-spacing: 10px;
 }
 .score-row{
-
+  width: fit-content;
 }
 .header-row{
 }
@@ -27,27 +37,59 @@ body{
 }
 
 .player-name-cell{
-
+  /* border:solid 2px transparent; */
+  /* border-image: linear-gradient(-90deg,rgb(0, 136, 255),rgb(0, 136, 255),rgba(4, 138, 255, 0.155),rgba(4, 138, 255, 0)) 10;
+  border-left:none;
+  border-radius: 100px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px; */
+  
 }
 .player-name-input{
-
-}
-.player-name-input , .score-input{
-  background-color: purple;
+  
   color:white;
   border:none;
-  font-size:1em;
   text-align: center;
+  font-size:1em;
+  background-color: transparent;
+  padding: 0.2ex 0.5ex;
+  width: 12ex;
+  text-align: right;
+  background-image:linear-gradient(90deg,rgb(34, 1, 201),rgb(158, 1, 201) 90%);
+  border-radius: 15px;
+}
+.player-name-input:focus{
+  background-image:linear-gradient(-90deg,rgb(1, 108, 201),rgb(1, 108, 201,0));
+  color:rgb(255, 242, 147);
+}
+
+.score-input:focus{
+  background-color: hsl(286, 100%, 40%);
+  color:rgb(238, 255, 0);
+}
+
+.score-cell{
+}
+.score-input{
+  color:white;
+  border:none;
+  text-align: center;
+  font-size:1em;
+  background-color: hsl(286, 96%, 22%);
+  width:5ex;
+  padding: 0.2ex 0.5ex;
+  
   border-radius: 6px;
 
 }
-.score-cell{
+.score-input::-webkit-outer-spin-button,
+.score-input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
 
-}
-.score-input{
-  width:40px;
-}
 .round-name-cell{
-  
+  font-size: 1em;
+  font-weight: bold;
 }
 

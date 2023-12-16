@@ -5,7 +5,7 @@ let num_rows_initial = 3;
 let num_cols = 3;
 
 const num_to_arabic = {
-  1:'الاولى',
+  1:'الأولى',
   2:'الثانية',
   3:'الثالثة',
   4:'الرابعة',
@@ -96,7 +96,7 @@ function addRow() {
  * @param {string} typeOfCells this could be one of these ['score','player','round']
  */
 function addCol() {
-  const all_rows = document.querySelectorAll('.score-table tr');
+  const all_rows = document.querySelectorAll('#score-table tr');
   all_rows[0].appendChild(getCell('round'));
   for (let i = 1; i < all_rows.length; i++) {
     all_rows[i].appendChild(getCell('score'));
