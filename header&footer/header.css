@@ -1,5 +1,62 @@
 body {
-  margin: 0px;
+  margin: 0;
   height: 300px;
-  background-color: pink;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  text-align: center;
+  direction: rtl;
+  --borde: 10px;
+  max-width: 750px;
+  min-width: 300px;
+  padding: 20px;
+  background-color: aqua;
+}
+
+header {
+  background-color: aqua;
+  color: blue;
+  padding: 40px;
+  /* Increased padding for header */
+  text-align: center;
+}
+
+nav {
+  background-color: aqua;
+  color: blue;
+  padding: 20px;
+}
+
+
+nav li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 40px;
+}
+
+footer {
+  background-color: aqua;
+  color: blue;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
