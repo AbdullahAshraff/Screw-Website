@@ -40,6 +40,11 @@ nav a {
   color: white;
   font-weight: bold;
   font-size: 18px;
+  transition: color 0.3;
+}
+
+nav a:hover {
+  color: lightblue
 }
 
 section {
