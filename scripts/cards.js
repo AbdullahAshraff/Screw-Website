@@ -19,8 +19,9 @@ const CARDS = [
 ];
 
 const FOLDER = '../footages/cards/'
-
-const CARD_GRID = document.getElementById('card-grid')
+const main_rules_page = document.querySelector('main');
+const CARD_GRID = document.getElementById('card-grid');
+main_rules_page.appendChild(CARD_GRID)
 
 for (let i = 0; i < CARDS.length; i++) {
 

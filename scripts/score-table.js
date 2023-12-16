@@ -1,6 +1,6 @@
 const table = document.createElement('table');
 table.setAttribute('id', 'score-table');
-document.body.appendChild(table);
+document.querySelector('main').appendChild(table);
 let num_rows_initial = 3;
 let num_cols = 3;
 
