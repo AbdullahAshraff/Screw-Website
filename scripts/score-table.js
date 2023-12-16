@@ -92,7 +92,9 @@ function addRow() {
   row.setAttribute('class','score-row');
   row.appendChild(getCell('player'));
   for (let i = 0; i < num_cols; i++) {
-    row.appendChild(getCell('score'));
+    const cell = getCell('score');
+    // cell.setAttribute('id',`${}`)
+    row.appendChild(cell);
   }
   table.appendChild(row);
 }
