@@ -11,11 +11,11 @@ const CARDS = [
   ['10', 'بص في ورقة غيرك', '10.png'],
   ['+20', 'حاسب من الكارت ده عشان ب20 نقطة', '+20.png'],
   ['-1', 'اجمد كارت في اللعبة', '-1.png'],
-  ['سكرو درايفر', 'تاني اجمد كارت في اللعبة. بيتحسب بصفر', 'driver.png'],
+  ['سكرو درايفر', 'كارت جامد بيتحسب بصفر', 'driver.png'],
   ['سكرو احمر', 'كارت سيئ جدا ب25 نقطة', 'screwred.png'],
-  ['بصرة', 'descr', 'basra.png'],
-  ['خد وهات', 'descr', 'khod.png'],
-  ['كعب داير', 'descr', 'kaab.png'],
+  ['بصرة', 'بترميها وبترمي ورقة من ورقك', 'basra.png'],
+  ['خد وهات', 'تبدل ورقة من عندك مع حد تاني من غير ما تشوفهم', 'khod.png'],
+  ['كعب داير', 'شوف ورقة من عندك ومن عند كل واحد', 'kaab.png'],
 ];
 
 const FOLDER = '../footages/cards/'
@@ -53,6 +53,9 @@ for (let i = 0; i < CARDS.length; i++) {
   let card_title = document.createElement('p');
   card_title.setAttribute('class','card_title');
   card_title.innerText = CARDS[i][0];
+  if (card_title.innerText.length>4){
+    card_title.classList.add('card_title_long');
+  }
   card_back.appendChild(card_title);
 
   

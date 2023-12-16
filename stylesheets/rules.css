@@ -87,6 +87,10 @@ body{
   background-color: purple;
   border-radius: 6px;
 }
+.card_title_long{
+  font-size: 1.2rem;
+
+}
 .card_desc{
 
   margin:10px;
