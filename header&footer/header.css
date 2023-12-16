@@ -15,9 +15,6 @@ h1 {
 body {
   text-align: center;
   direction: rtl;
-  --borde: 10px;
-  max-width: 750px;
-  min-width: 300px;
   padding: 20px;
   background-color: rgb(50, 30, 80);
 }

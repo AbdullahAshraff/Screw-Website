@@ -5,21 +5,15 @@ html{
   direction: rtl;
 }
 body{
-  margin: 0px;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-size:25px;
-  height: 100vh;
-  width: 100vw;
-  max-width: 750px;
-  min-width: 300px;
-  overflow-x: scroll;
-  padding: 20px;
+  /* overflow-x: scroll; */
 }
 
 #score-table{
   table-layout: auto;
-  width:100%;
-  
+  width:100vw;
+  overflow:scroll;
   text-align: center;
   border-spacing: 10px;
 }
