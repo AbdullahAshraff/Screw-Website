@@ -15,11 +15,11 @@ body {
   max-width: 750px;
   min-width: 300px;
   padding: 20px;
-  background-color: aqua;
+  background-color: purple;
 }
 
 header {
-  background-color: aqua;
+  background-color: purple;
   color: blue;
   padding: 40px;
   /* Increased padding for header */
@@ -27,7 +27,7 @@ header {
 }
 
 nav {
-  background-color: aqua;
+  background-color: purple;
   color: blue;
   padding: 20px;
 }
@@ -52,7 +52,7 @@ section {
 }
 
 footer {
-  background-color: aqua;
+  background-color: purple;
   color: blue;
   text-align: center;
   padding: 20px;
