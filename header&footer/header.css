@@ -16,11 +16,11 @@ body {
   text-align: center;
   direction: rtl;
   padding: 20px;
-  background-color: rgb(50, 30, 80);
+  background-color: rgb(49, 19, 57);
 }
 
 header {
-  background-color: rgb(50, 30, 80);
+  background-color: rgb(49, 19, 57);
   color: white;
   padding: 40px;
   /* Increased padding for header */
@@ -28,7 +28,7 @@ header {
 }
 
 nav {
-  background-color: rgb(50, 30, 80);
+  background-color: rgb(49, 19, 57);
   color: white;
   padding: 20px;
 }
@@ -62,7 +62,7 @@ section {
 
 
 footer {
-  background-color: rgb(50, 30, 80);
+  background-color: rgb(49, 19, 57);
   color: white;
   text-align: center;
   padding: 20px;
