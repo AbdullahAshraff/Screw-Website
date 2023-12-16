@@ -8,6 +8,10 @@ html {
   justify-content: center;
 }
 
+h1 {
+  color: gold;
+}
+
 body {
   text-align: center;
   direction: rtl;
@@ -15,11 +19,11 @@ body {
   max-width: 750px;
   min-width: 300px;
   padding: 20px;
-  background-color: rgb(87, 10, 142);
+  background-color: rgb(50, 30, 80);
 }
 
 header {
-  background-color: rgb(87, 10, 142);
+  background-color: rgb(50, 30, 80);
   color: white;
   padding: 40px;
   /* Increased padding for header */
@@ -27,7 +31,7 @@ header {
 }
 
 nav {
-  background-color: rgb(87, 10, 142);
+  background-color: rgb(50, 30, 80);
   color: white;
   padding: 20px;
 }
@@ -50,14 +54,21 @@ nav a:hover {
   color: lightblue
 }
 
+h2 {
+
+  text-align: left;
+}
+
 section {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 40px;
+  text-align: left;
+}
+
+img {
+  align-items: right;
 }
 
 footer {
-  background-color: rgb(87, 10, 142);
+  background-color: rgb(50, 30, 80);
   color: white;
   text-align: center;
   padding: 20px;
