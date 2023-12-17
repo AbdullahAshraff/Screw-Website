@@ -62,4 +62,5 @@ nav a:hover {
 nav li {
   display: inline;
   margin-right: 30px;
+  margin-top:5px;
 }
