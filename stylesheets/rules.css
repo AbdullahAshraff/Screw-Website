@@ -10,9 +10,9 @@ body{
   text-align: center;
   direction: rtl;
   height: fit-content;
+  font-size: 20px;
   --borde : 10px;
 }
-
 #card-grid{
   display:grid;
   row-gap: 20px;
@@ -83,19 +83,19 @@ body{
 .card_title{
   padding: 5px 5px;
   margin:10px 0px;
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: bold;
   direction: ltr;
   background-color: purple;
   border-radius: 6px;
 }
 .card_title_long{
-  font-size: 1.2rem;
+  font-size: 1.2em;
 
 }
 .card_desc{
-
-  margin:10px;
+  font-size:1em;
+  margin:5px;
 }
 .para{
   margin:0px;

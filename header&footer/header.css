@@ -31,6 +31,34 @@ nav a{
 nav a:hover {
   color: rgb(0, 190, 253);
 }
+@media (max-width:425px){
+  header{
+    padding:30px;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    padding:0px;
+  }
+  nav li {
+    display:list-item;
+    margin: 0px;
+  }
+}
+@media (max-width:690px) and (min-width:425px){
+  header{
+    padding:30px;
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0px;
+  }
+  nav li {
+    display:list-item;
+    margin: 0px;
+  }
+}
 nav li {
   display: inline;
   margin-right: 30px;
