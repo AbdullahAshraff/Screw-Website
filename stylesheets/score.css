@@ -4,6 +4,31 @@ html{
   justify-content: center;
   direction: rtl;
 }
+
+
+
+@media (max-width:500px) {
+  body{
+    font-size: 21px;
+  }
+}
+@media (min-width:500px) and (max-width:800px) {
+  body{
+    font-size: 23px;
+  }
+}
+@media (min-width:800px) and (max-width:1000px) {
+  body{
+    font-size: 27px;
+  }
+}
+  
+@media (min-width:1000px){
+  body{
+    font-size: 30px;
+  }
+}
+
 #table-frame{
   margin:10px 0px;
   margin-bottom:30px;
@@ -39,6 +64,9 @@ html{
   
 
 }
+
+
+
 .player-name-cell{
 }
 .player-name-input{
